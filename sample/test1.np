@@ -1,0 +1,106 @@
+//Notepad サンプル
+
+//七瀬さんが提示したやつ
+class Person extd Animal:
+  instance age=0;
+  def show_age():
+    //if
+    if age>=0:
+      print("Hello,#{age}");
+    else:
+      print("invalid");
+    fi
+  fed
+ssalc
+
+module s:
+  //先頭に publ prot priv のアクセス修飾子を付加できます
+  class Sample:
+    
+    
+    instance name = 0;      //インスタンス変数
+    class huga = 0;         //クラス(static)変数
+    
+    //特に何も指定しなくてもpublic メソッドです
+    publ def public_method:
+      print("Hello,public method!");
+    fed
+    
+    //protected メソッド
+    prot def protected_method(a):
+      print("Hello,protected method:#{a}");
+    fed
+    
+    //private メソッド
+    priv def private_method():
+      print("Don't be shy");
+    fed
+    
+    //とりあえずself
+    def hello(name):
+      self.name=name;
+      print("Hello,#{self.name}");
+    fed
+    
+    //if文、elifにも対応
+    def show_age(age):
+      if age>=0 :
+        print("Your age is #{age}");
+      else:
+        print("Invalid!");
+      fi
+    fed
+    
+    //for文
+    def for_sample():
+      for i in array:
+        print(i);
+      rof
+    fed
+    
+    def while_and_unless_sample:
+      while true:
+        "∞"; //ぶっちゃけ値だけ書いても怒られません
+      elihw
+      unless true:
+        "NOOOOO";
+      sselnu
+    fed
+    
+    /*
+    for,while,unlessに関しては将来的に単文でも書けるようになる予定です
+    */
+    
+    def switch_sample:
+      local base=1;
+      switch base:
+        case 0:
+          print("yay!");
+        case 1:
+          //Notepadはfall-troughできません
+        case 2:
+          
+        default:
+      hctiws
+    fed
+    
+    //if文は先行的に別の書き方を実装
+    def if_extra:
+      print("後置if") if true;
+      if false : print("1行if");
+    fed
+    
+    natv def non_virtual_method:
+      "このメソッドはオーバーライドできず、仮想関数テーブルを定義しません";
+    fed
+  ssalc
+  
+  //もちろん継承もサポート
+  prot class Derived extd Sample:
+    //オーバーライド時には必ずovriキーワードを付加
+    //引数の種類(将来的に実装)とか順番が合ってれば名前は違っても大丈夫
+    priv ovri def hello(namae):
+      print("こんにちは、#{namae}さん");
+    fed
+  ssalc
+eludom
