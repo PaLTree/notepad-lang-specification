@@ -1,0 +1,73 @@
+﻿#TagBegin=
+#TagEnd=
+#CommentBegin1=
+#CommentEnd1=
+#LineComment1=//
+#CommentBegin2=
+#CommentEnd2=
+#LineComment2=
+#SpecialSyntax=None
+#ScriptBegin=
+#ScriptEnd=
+#QuoteSingle=False
+#QuoteDouble=True
+#QuoteContinue=False
+#EscapeCharacter=
+
+#Word Color=0, WholeWord=True, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
+attr
+class
+def
+include
+mix
+module
+prop
+
+#Word Color=1, WholeWord=True, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
+global
+instance
+local
+natv
+
+#Word Color=2, WholeWord=True, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
+break
+case
+continue
+default
+elif
+else
+for
+if
+in
+return
+self
+switch
+unless
+while
+
+#Word Color=3, WholeWord=True, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
+impl
+natv
+ovri
+priv
+prot
+publ
+
+#Word Color=4, WholeWord=True, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
+eludom
+fed
+porp
+rtta
+ssalc
+
+#Word Color=5, WholeWord=True, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
+elihw
+fi
+hctiws
+rof
+sselnu
+
+#Word Color=7, WholeWord=True, RightSide=False, MatchCase=False, InsideTag=False, RegEx=False
+global
+local
+static
