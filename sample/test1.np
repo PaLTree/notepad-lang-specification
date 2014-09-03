@@ -1,7 +1,7 @@
 //Notepad サンプル
 
 //七瀬さんが提示したやつ
-class Person extd Animal:
+class Person extends Animal:
   instance age=0;
   def show_age():
     //if
@@ -22,17 +22,17 @@ module s:
     class huga = 0;         //クラス(static)変数
     
     //特に何も指定しなくてもpublic メソッドです
-    publ def public_method:
+    public def public_method:
       print("Hello,public method!");
     fed
     
     //protected メソッド
-    prot def protected_method(a):
+    protected def protected_method(a):
       print("Hello,protected method:#{a}");
     fed
     
     //private メソッド
-    priv def private_method():
+    private def private_method():
       print("Don't be shy");
     fed
     
@@ -67,9 +67,9 @@ module s:
       sselnu
     fed
     
-    /*
-    for,while,unlessに関しては将来的に単文でも書けるようになる予定です
-    */
+    
+    //for,while,unlessに関しては将来的に単文でも書けるようになる予定です
+    
     
     def switch_sample:
       local base=1;
@@ -90,16 +90,16 @@ module s:
       if false : print("1行if");
     fed
     
-    natv def non_virtual_method:
+    native def non_virtual_method:
       "このメソッドはオーバーライドできず、仮想関数テーブルを定義しません";
     fed
   ssalc
   
   //もちろん継承もサポート
-  prot class Derived extd Sample:
+  protected class Derived extends Sample:
     //オーバーライド時には必ずovriキーワードを付加
     //引数の種類(将来的に実装)とか順番が合ってれば名前は違っても大丈夫
-    priv ovri def hello(namae):
+    private override def hello(namae):
       print("こんにちは、#{namae}さん");
     fed
   ssalc
