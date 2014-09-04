@@ -1,0 +1,31 @@
+//メモ帳作ろうな
+require 'gui/winapi';
+
+scr:
+  local window=WinGui.Window.new("メモ帳",640,480);
+  local menu=Wingui.WindowMenu.new(
+    tree:
+      ["ファイル"]:
+        ["新規作成",$new_file],
+        ["開く",$open_file],
+        ["上書き保存",$save],
+        ["名前を付けて保存",$save_as],
+        [WinGui.WindowMenu.Separator],
+        ["ページ設定",$page_setting],
+        ["印刷",$print],
+        [WinGui.WindowMenu.Separator],
+        ["メモ帳の終了",$exit_notepad];
+    eert;
+  );
+  window.menu=menu;
+  
+  local edit=WinGui.Editor.new;
+  window.body=edit;
+  window.show;
+rcs
+
+
+def new_file:
+
+
+fed
