@@ -1,0 +1,24 @@
+class User:
+  prop Name;
+  prop ScreenName;
+  def do:
+  fed
+ssalc
+
+module TeamNotepad:
+  class Kb10uy extends User:
+    prop Name="kb10uy";
+    prop ScreenName="kb10uy";
+    override def do:
+      Cosplay("天子");
+    fed
+  ssalc
+  
+  class ParallelTree extends User:
+    prop Name="ぱらつり";
+    prop ScreenName="paralleltree";
+    override def do:
+      Notepad();
+    fed
+  ssalc
+eludom

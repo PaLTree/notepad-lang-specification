@@ -1,0 +1,5 @@
+//ネイティブクラス
+native class NativeClass with "libname":
+  def hoge as "native_hoge";
+  def huga as "native_huga";
+ssalc

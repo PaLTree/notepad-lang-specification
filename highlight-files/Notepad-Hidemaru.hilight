@@ -1,4 +1,6 @@
 33,attr
+33,as
+483,arap
 161,break
 161,continue
 33,class
@@ -10,6 +12,7 @@
 161,else
 225,elihw
 161,elif
+483,eert
 161,for
 225,fi
 483,fed
@@ -32,9 +35,11 @@
 33,prop
 33,prop
 97,private
+33,para
 483,rtta
 225,rof
 161,return
+33,require
 483,rcs
 161,switch
 225,sselnu
@@ -42,8 +47,12 @@
 355,self
 33,scr
 355,true
+33,tree
+355,to
 161,unless
+33,with
 161,while
+161,yield
 /<ColorSet>
 /[0][0]:0x00FFFFFF
 /[0][1]:0x00000000
@@ -54,7 +63,7 @@
 /[2][0]:0x01000008
 /[2][1]:0x01000005
 /[2][2]:0x00000001
-/[3][0]:0x00008000
+/[3][0]:0x00579601
 /[3][1]:0x01000008
 /[3][2]:0x00000000
 /[4][0]:0x00FF8000
@@ -236,3 +245,8 @@
 /RulerColorEx:0xFFFFFFFF
 /RulerBackEx:0xFFFFFFFF
 /<HilightMulti>
+/<TreeWord>
+/<Defines>
+/<DefinesInvalid>
+/<Ifvalue>
+/<IfvalueInvalid>

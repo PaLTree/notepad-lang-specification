@@ -1,0 +1,76 @@
+
+//通る
+scr:
+  if a == [1 to 100 ]:
+    print("1~100のあいだ");
+    local array=[0,1,2,3,4,5,6];
+    local tr= tree:
+                a => 1,
+                b => tree:
+                  yeah => nil
+                eert,
+                c=>"string"
+                
+              eert;
+  else:
+    print("ではない");
+  fi
+rcs
+
+
+//新しい文法の紹介
+module Hoge:
+  //1. 多重module
+  module Child:
+    class Foo:
+      
+      public def return_10:
+        return 10;
+      fed
+      
+    ssalc
+  eludom
+  
+  class Test:
+    
+    protected def yattane:
+      return "たえちゃん";
+    fed
+    
+    /* 2.para構文
+     * 世間一般にはコルーチンとかファイバーとかジェネレーターって
+     * 呼ばれてるやつ
+     */
+    private para para_sample:
+      for i in array_hoge:
+        yield i;
+      rof
+    arap
+    
+    /* 3.配列式・範囲式
+     * だいたいRubyのそれと同じですが、
+     * 範囲式は..の代わりにtoを使います
+     */
+    private def array_and_range_sample:
+      local ar=[1,2,3,4,5,[6,7],8,[9,10]];
+      for i in [1 to 100]:
+        print("yeah!");
+      rof
+    fed
+    
+    /* 4.tree式
+     * Hashの初期化だよ！
+     */
+    public def tree_sample():
+      local tr=tree:
+                 test=>1,
+                 hoge=>2,
+                 foo=>"string",
+                 ctree=>tree:
+                   test=>2,
+                   woeirhw2=>238.4
+                 eert
+               eert;
+    fed
+  ssalc
+eludom
