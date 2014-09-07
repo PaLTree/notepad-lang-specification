@@ -1,0 +1,118 @@
+//パーサーチェック用
+//各種構文や式を取り揃えています
+scr:
+  1;
+  ident;
+  "string";
+  true || false;
+  true && true;
+  a === nil;
+  12 | 2;
+  383 ^ 31;
+  12 & 15;
+  str == "hoge";
+  num >= 12;
+  12 << 8;
+  4 + 5;
+  12 * 51;
+  ++earlier_inc;
+  post("arg1", arg2, 3);
+  indexer[num];
+  -later_inc;
+  1 + 2 * 3;
+  (1 + 2) * 3;
+  "list_expr",2,3*4,method(5)+[2,indexer["6"]];
+  local array=[1,2,3,[4,5],67];
+  local range=[0 to 2];
+  -(++(!a++("s")[bf][aaa](("" else "" in nil),a++("s")[bf][aaa]((tree:huga=>tree:manko=>"膣" eert eert else "" in nil))[12("*3")])[12("*3")]));
+rcs
+
+//モジュール
+module ParentModule:
+  //子モジュール
+  module ChildModule1:
+    //publicクラス
+    public class PublicClass1:
+      //インスタンス変数
+      instance insvar1;
+      instance insvar2 = "value";
+      //クラス変数
+      class classvar1;
+      class classvar2 = 1 + 2 + 3 + 4 + 5;
+      //メソッド
+      def method_1:
+      
+      fed
+      
+      public def method_2():
+        return 1;
+      fed
+      
+      private native def method_3(a1,a2):
+        return;
+      fed
+      
+      protected def method_4(a1):
+        for i in [0 to 10]:
+          print("#{i}");
+        rof
+      fed
+    ssalc
+    
+    private class PrivateClass2 extends PublicClass1:
+      public override def OverrideMethod:
+        while false:
+          "Oh no";
+        elihw
+        unless true:
+          "アイエエエエ! ニンジャ!? ニンジャナンデ!?";
+        sselnu
+      fed
+      
+      protected native def method_5:
+        switch hoge:
+          case 1:
+          case 2:
+          case 3:
+            print("Hoge is 3");
+        hctiws
+      fed
+      
+      def method_6:
+        switch:
+          case huga==1:
+          default:
+        hctiws
+      fed
+    ssalc
+  eludom
+eludom
+
+def GlobalMethod:
+  global gv=1;
+fed
+
+class GlobalClass:
+  def hogefoo:
+    test;
+  fed
+  
+  para paratest:
+    while true:
+      yield true;
+    elihw
+  arap
+ssalc;
+
+module ModuleWithIncludes:
+  include ParentModule::ChildModule1::PublicClass1;
+  
+  native class NativeClass with "libhoge":
+    def native_method as "native1";
+  ssalc
+eludom
+
+/*
+複数行コメント
+
+*/
